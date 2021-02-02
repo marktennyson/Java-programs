@@ -22,12 +22,12 @@ class Checker{
 
 public class StringChecker{
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in); 
         System.out.println("Enter Your Word: ");
-        String word = s.nextLine().toLowerCase();
+        String word = sc.nextLine().toLowerCase();
         Checker checker = new Checker();
         double[] res = checker.check(word);
         System.out.println("Vowel persent: "+res[0]+". Consonent present: "+res[1]);
-        s.close();
+        sc.close();
     }
 }

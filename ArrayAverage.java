@@ -11,14 +11,11 @@ class Average{
     }
 }
 
-
-
 public class ArrayAverage{
     public static void main(String[] args) {
         int arr[] = {3,5,7,8,14,98,67,45};
         Average averager = new Average(arr);
         double average = averager.calculate();
-        System.out.println("average of the array is: " + average);
-        
+        System.out.println("average of the array is: " + average); 
     }
 }
